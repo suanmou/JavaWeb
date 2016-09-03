@@ -1,0 +1,109 @@
+body{
+    width: 1258px;
+    font-size: 12px;
+    color: #a0a0a0  ;
+    margin: 0px auto;
+    background-color: #fafafa;
+}
+.header_top{
+    height: 30px;
+    background-color: #fafafa;
+    line-height: 30px;
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 2px  0px 5px #dbdbdb ;
+}
+.header_top .header_list{
+    padding-right: 30px;
+    float:right;
+}
+.header_top .header_list li{
+   display: inline-block;
+}
+.logo{
+    height: 140px;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    box-shadow: 2px 2px 10px #dbdbdb;
+}
+.logo  h1{
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 140px;
+}
+.logo_image{
+    width: 240px;
+    height: 80px;
+    margin-top:30px ;
+    margin-left:100px ;
+    padding-right: 5px;
+    border-right: 1px solid #d1deee;
+}
+
+
+#footer{
+    width: 100%;
+
+    margin-bottom: 50px;
+    background-color: #fff;
+    color:  #fafafa;
+    border-top: 1px solid #dbdbdb;
+    padding-bottom: 50px;
+
+
+}
+#footer .footer_container{
+    /*width: 450px;*/
+
+
+
+}
+#footer .footer_container{
+    width: 700px;
+    margin: 15px auto;
+}
+#footer .footer_container li{
+    width: 100px;
+    height: 50px;
+    padding: 0px 50px;
+    display:inline-block;
+    border-right: 1px solid lightgray;
+}
+#footer .footer_container li.first{
+    background: url(../images/Quality_assurance.gif) no-repeat 5% center;
+}
+#footer .footer_container li.second{
+     background: url(../images/Seven_days.gif) no-repeat 5% center;
+}
+#footer .footer_container li.third{
+    background: url(../images/Fake_a_lose_three.gif) no-repeat  5% center;
+}
+#footer .footer_container li a{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+
+}
+#footer .copyright{
+    width: 700px;
+    margin: 5px auto;
+}
+.copyright .lside {
+    width: 405px;
+    border-right: 1px solid silver;
+
+}
+.copyright .lside p{
+    margin-top: 5px;
+    color:  #a0a0a0;
+    text-align:center ;
+}
+
+.copyright .rside li{
+    float: left;
+    padding: 10px;
+}
+
+
+
+

@@ -1,0 +1,85 @@
+body{
+    width: 100%;
+    font-size: 14px;
+    background: #fafafa;
+}
+#container{
+    width: 960px;
+    padding: 20px;
+    background: #fff;
+    margin:50px auto;
+}
+form{
+    display: table;
+    padding: 10px;
+    width: 700px;
+    margin: 0px auto;
+
+
+}
+.table_row{
+    display: table-row;
+}
+.table_row p{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    display:table-cell;
+    vertical-align: top;
+    height:30px;
+    line-height: 30px;
+    /*margin-top:15px;*/
+    padding:  10px 8px;
+}
+.table_row p:first-child{
+    text-align: right;
+}
+.table_row p input{
+    border: 1px solid #dbdbdb;
+    border-radius: 3px ;
+}
+
+input{
+    display:inline-block;
+	width:200px;
+	height:20px;
+    padding: 5px 10px;
+}
+.address input{
+    display:inline-block;
+    width:150px;
+    height:20px;
+    padding: 5px 10px;
+}
+.address select{
+    display:inline-block;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px ;
+    line-height: 33px;
+    height:33px;
+    padding: 5px 10px;
+}
+button{
+    display: block;
+    width: 90px;
+    height: 30px;
+    margin-left:  40px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #fff;
+    border: 1px solid #f57c07;
+    border-radius: 5px;
+    background-color: #f57c07;
+    vertical-align: middle;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.tag{
+    width: 250px;
+    margin: 0px auto;
+}
+
+
+

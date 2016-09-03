@@ -1,0 +1,32 @@
+body,p,h1,h2,h3,h4,h5,h6,ol,ul,li,dl,dd,input,button,form,a{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    color: #000;
+}
+ol,ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float: right;
+}
+.cf{
+    clear: both;
+}
+a:link,a:visited{
+    color: #4e4e4e;
+}
+a:hover,a:active{
+    color: #b3d4fc;
+}
